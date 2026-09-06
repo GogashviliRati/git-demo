@@ -40,3 +40,7 @@ To achive that , there is 3 different ways to clone repository
 3. Using Github CLI `gh repo clone [your username]/[your repository]`
 
 > Reminder: Only difference between SSH and HTTPS is that how they authenticate who you are HTTPS uses : Personal Access Token (PAT) or GitHub login credentials. while SSH uses : pair of cryptographic keys (Public & Private) stored on your machine.
+
+## GIT PULL
+
+`git pull` command is used to synchronize older commits which was made in other machine or on the website itself to your local machine (where you are working). For instance you and your friend work on project he did some changes made commit and pushed in repository , if you do any change and commit something without pulling his commits there will be conflict , to avoid that you need to do git pull to receive latest updates what your friend did in your project.
