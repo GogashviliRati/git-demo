@@ -30,3 +30,13 @@ If you want to create github repository you need to go to "github.com" then go i
 4. This radiobutton is we want our repository to have readme file or not
 5. This radiobutton gives us option to add .gitignore file which tells Git which files or folders to skip and not track in your project
 6. This dropdown is used to add license, which determines how can others use your code
+
+### Cloning git repository
+
+To achive that , there is 3 different ways to clone repository
+
+1. Using HTTPS protocol `git clone https://github.com/[your username]/[your repository].git`
+2. Using SSH protocol `git clone git@github.com:[your username]/[your repository].git`
+3. Using Github CLI `gh repo clone [your username]/[your repository]`
+
+> Reminder: Only difference between SSH and HTTPS is that how they authenticate who you are HTTPS uses : Personal Access Token (PAT) or GitHub login credentials. while SSH uses : pair of cryptographic keys (Public & Private) stored on your machine.
