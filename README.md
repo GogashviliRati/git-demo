@@ -17,3 +17,16 @@ This key is used to securely authincate your machine to your github account
    git config --global user.name “[Your Name]“
 
    git config --global user.email “[Your Email]"
+
+## Creating GitHub Repository (+Cloning)
+
+If you want to create github repository you need to go to "github.com" then go in your profile -> repositories -> and top right corner green button "new"
+
+![First Screenshot](img/1.png)
+
+1. First field is name of repository
+2. Second field is Description
+3. Visibility gives us option to choose whether we want your repository to be public or private
+4. This radiobutton is we want our repository to have readme file or not
+5. This radiobutton gives us option to add .gitignore file which tells Git which files or folders to skip and not track in your project
+6. This dropdown is used to add license, which determines how can others use your code
